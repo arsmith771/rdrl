@@ -1,0 +1,45 @@
+
+/*==============================
+=            Footer            =
+==============================*/
+
+.site-footer {
+	clear: both;
+	font-size: .8em;
+	overflow: hidden;
+	padding: 10px 10px 50px 10px;
+	background-color: $blue;
+	color:#fff;
+	text-align: center;
+	@media screen and (min-width: 1240px) {
+		padding:10px;
+	}
+	p {
+		margin-bottom: 0;
+		display: inline-block;
+    	width: auto;
+	}
+}
+
+/*----------  Widgets  ----------*/
+
+.footer-widgets {
+	clear: both;
+	overflow: hidden;
+	padding: 40px 10px;
+	
+	.widget {
+		margin-bottom: 40px;
+	}
+}
+.footer-cta-tab{
+	position: fixed;
+    bottom: 0;
+    right: calc(50% - 50px);
+    background: #fff;
+    padding: 6px 16px;
+    box-shadow: 0 0 8px #000066;
+    @media screen and (min-width: 1240px) {
+		right: 100px;
+    }
+}

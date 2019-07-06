@@ -1,0 +1,113 @@
+.edit-post-meta-boxes-area .postbox{
+	margin-bottom: 20px;
+}
+#genesis_inpost_scripts_box,
+#genesis_inpost_layout_box,
+#slugdiv,
+#views_template,
+.editor-block-list__layout,
+.wp-editor-tools > .wp-media-buttons,
+.wp-switch-editor,
+#genesis_inpost_seo_box,
+#dashboard_quick_press.postbox,
+#dashboard_primary.postbox{
+	display: none;
+}
+div[data-wpt-id="wpcf-home-header-image"],
+div[data-wpt-id="wpcf-about-header-image"],
+#wpcf-group-header-image,
+div[data-wpt-id="wpcf-projects-landing-header-image"],
+#wpcf-group-header-image-2 {
+	outline: 4px dashed red;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-1-first-image"],
+div[data-wpt-id="wpcf-about-main-content"],
+#wpcf-group-project-intro,
+div[data-wpt-id="wpcf-projects-landing-intro-text"],
+#wpcf-group-contact-page-content{
+	outline: 4px dashed blue;
+	padding:30px;
+}
+
+#wpcf-group-about-team,
+#wpcf-group-development{
+	outline: 4px dashed yellow;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-2-text-header"]{
+	border: 4px dashed pink;
+	border-bottom: none;	
+    margin-bottom: 0;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-2-text"]{
+	border: 4px dashed pink;
+	border-top: none;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-2-quote"],
+div[data-wpt-id="wpcf-about-image-right-side"]{
+	border: 4px dashed aquamarine;
+	border-bottom: none;	
+    margin-bottom: 0;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-about-quote"]{
+	border: 4px dashed aquamarine;
+	border-bottom: none;	
+	border-top: none;	
+    margin-bottom: 0;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-2-quote-source"],
+div[data-wpt-id="wpcf-about-quote-source"]{
+	border: 4px dashed aquamarine;
+	border-top: none;	
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-3-image"],
+#wpcf-group-role{
+	border: 4px dashed orange;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-row-4-image"],
+#wpcf-group-key-project-features{
+	border: 4px dashed fuchsia;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-4-text-header"]{
+	border: 4px dashed chocolate;	
+	border-bottom: none;	
+    margin-bottom: 0;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-4-text-below-header"]{
+	border: 4px dashed chocolate;
+	border-top: none;	
+	padding:30px;
+}
+#wpcf-group-information{
+	border: 4px dashed olive;
+	padding:30px;
+}
+#wpcf-group-professional-team{
+	border: 4px dashed aqua;
+	padding:30px;
+}
+#wpcf-group-quote{
+	border: 4px dashed darkviolet;
+	padding:30px;
+}
+#wpcf-group-project-team{
+	border: 4px dashed yellowgreen;
+	padding:30px;
+}
+#taxonomy-category{
+	border: 4px dashed black;
+	padding:30px;
+}
+div[data-wpt-id="wpcf-home-row-1-second-image"]{
+	border: 4px dashed green;
+	padding:30px;
+}

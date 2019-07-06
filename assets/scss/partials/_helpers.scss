@@ -1,0 +1,33 @@
+/*=============================
+=            Helper classes - global           
+=============================*/
+.clearfix{
+	&:after{
+		content:'';
+		clear:both;
+		display:table;
+	}
+}
+.f-w-bt{
+	&:before{
+		content:'';
+		position:absolute;
+		display:block;
+		height:1px;
+		background: #aaa;
+		width:100%;
+		top:auto;
+		margin-top:-50px;
+		left:0;
+		overflow: hidden;
+	}
+}
+.pos-r{
+	position:relative;
+}
+.mb-0{
+	margin-bottom:0;
+}
+.fr{
+	float:right;
+}
